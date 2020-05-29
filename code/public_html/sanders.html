@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Voting App</title>
+		<link rel="shortcut icon" href="images/bipartisan.jpg">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/sidebar.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/h1.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/body.css">
+		<link rel="stylesheet" href="css/sidebar.css">
+		<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<!-- Sidebar -->
+		<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-animate-left" id="mySidebar" style="width: 250px;">
+			<span class="w3-bar-item w3-blue w3-large"><a href="#" style="text-decoration: none;" id="sidebar_close" >Close &times;</a></span>
+			<a href="results.html" class="w3-bar-item w3-button w3-border-bottom w3-grey">Results</a>
+			<a href="questions.html" class="w3-bar-item w3-button w3-grey">Questions</a>
+			<a href="#" class="w3-btn w3-block w3-left-align w3-black" id="candidates">Candidates <i class="rotate fa fa-caret-down"></i></a>
+			<div id="candidates1" class="w3-white w3-card">
+				<a href="allcandi.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Show All</a>
+				<a href="biden.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Biden <img src="images/biden.png"></a>
+				<a href="fuente.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Fuente <img src="images/fuente.jpg"></a>
+				<a href="gabbard.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Gabbard <img src="images/gabbard.png"></a>
+				<a href="sanders.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Sanders <img src="images/sanders.jpg"></a>
+				<a href="trump.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Trump <img src="images/trump.png"></a>
+				<a href="weld.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Weld <img src="images/weld.jpg"></a>
+			</div>
+		</div>
+
+		<!-- Sidebar button-->
+		<button class="w3-button w3-round w3-ripple w3-xlarge w3-hover w3-opacity" id="sidebar_open">☰</button>
+
+		<!-- Body -->
+		<div class="row">
+			<!-- Left content -->
+	  		<div class="column">
+	    		<div class="w3-card-4 w3-light-blue w3-round-xxlarge" id="infoCard">
+					<img src="images/sanders.jpg" alt="Something is wrong on our end" style="width: 100%">
+					<div class="w3-container w3-center">
+					<p class="w3-xlarge w3-sans-serif">Bernie Sanders</p>
+					<p class="w3-large w3-serif w3-justify">
+					 Sanders was born in 1941 in Brooklyn, New York, where he grew up. He earned his B.A. in political science from the University of Chicago in 1964 and went on to lecture at Harvard University and Hamilton College in New York. Sanders has also worked as a carpenter and a journalist. After spending six months in a kibbutz (a communal settlement) in Israel, Sanders moved to Vermont in 1968. In the 1970s, he ran unsuccessfully for governor of Vermont twice and for U.S. Senate twice as a Liberty Union Party candidate. He was elected mayor of Burlington as an independent in 1981, defeating Democratic incumbent Gordon Paquette by a margin of 10 votes, and he served as mayor until 1989. During his mayoral tenure, Sanders ran unsuccessful bids for governor and U.S. House as an independent before being elected to the House in 1990. He served in the House until 2007, when he became a member of the U.S. Senate following his election to the chamber the previous year. Sanders sought the Democratic nomination for president in 2016, which he lost to former Secretary of State Hillary Clinton. He received around 43 percent of the popular vote in the primaries compared to Clinton's 55 percent, and he received support from 39 percent of delegates at the national convention to Clinton's 60 percent. Though Sanders has held elected office as an independent since 1981 and sought the Democratic nomination for president, he identifies as a democratic socialist.
+
+					</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Immigration</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			 supports creating a pathway to citizenship, providing legal status to DACA-eligible immigrants, and restructuring the Immigration and Customs Enforcement agency. Enact comprehensive immigration reform, including a path towards citizenship. Expand DACA and DAPA, including providing immediate legal status for young people eligible for the DACA program and developing a humane policy for those seeking asylum. Completely reshape and reform our immigration enforcement system, including fundamentally restructuring ICE, an agency Senator Sanders voted against creating. End the barbaric practice of family separation and detention of children in cages. Dismantle cruel and inhumane deportation programs and detention centers. Establish standards for independent oversight of relevant agencies within DHS.
+
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Energy and Environmental</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			climate crisis is \"the single greatest challenge facing our country\" and supports implementing the Green New Deal. Reaching 100 percent renewable energy for electricity and transportation by no later than 2030 and complete decarbonization by 2050 at latest. Ending unemployment by creating 20 million jobs needed to solve the climate crisis. Directly invest an historic $16.3 trillion public investment toward these efforts. A just transition for workers. Declaring climate change a national emergency. Saving American families money by weatherizing homes and lowering energy bills, building affordable and high-quality, modern public transportation, providing grants and trade-in programs for families and small businesses to purchase high-efficiency electric vehicles, and rebuilding our inefficient and crumbling infrastructure, including deploying universal, affordable high-speed internet. Supporting small family farms by investing in ecologically regenerative and sustainable agriculture. Justice for frontline communities. Commit to reducing emissions throughout the world. Meeting and exceeding our fair share of global emissions reductions. Making massive investments in research and development. Expanding the climate justice movement. Investing in conservation and public lands to heal our soils, forests, and prairie lands. This plan will pay for itself over 15 years. We will pay for the massive investment we need to reverse the climate crisis by: Making the fossil fuel industry pay for their pollution, through litigation, fees, and taxes, and eliminating federal fossil fuel subsidies. Generating revenue from the wholesale of energy produced by the regional Power Marketing Authorities. Scaling back military spending on maintaining global oil dependence. Collecting new income tax revenue from the 20 million new jobs created by the plan. Reduced need for federal and state safety net spending due to the creation of millions of good-paying, unionized jobs. Making the wealthy and large corporations pay their fair share.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Economy</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			While the Bill of Rights protects us from the tyranny of an oppressive government, many in the establishment would like the American people to submit to the tyranny of oligarchs, multinational corporations, Wall Street banks, and billionaires who now control almost every aspect of our daily lives. But as President Franklin Roosevelt said 75 years ago: “True individual freedom cannot exist without economic security. 21st Century Economic Bill of Rights with the following guarantees: \"The right to a job that pays a living wage. The right to quality health care. The right to a complete education. The right to affordable housing. The right to a clean environment. The right to a secure retirement.\" Real Wall Street Reform: \"Break up too-big-to-fail banks. End the too-big-to-jail doctrine. Reinstate the Glass-Steagall Act. Cap credit card interest rates. Allow every post office to offer basic and affordable banking services. Cap ATM fees. Audit the Federal Reserve and make it a more democratic institution so that it becomes responsive to the needs of ordinary Americans, not just the billionaires on Wall Street. Restrict rapid-fire financial speculation with a financial transactions tax. Reform credit rating agencies.
+
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Gun Regulation</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			supports expanding background checks, banning the sale of certain firearms, and prohibiting high-capacity ammunition magazines. We must: Take on the NRA and its corrupting effect on Washington. The NRA has become a partisan lobbying public-relations entity for gun manufacturers, and its influence must be stopped. Expand background checks. End the gun show loophole. All gun purchases should be subject to the same background check standards. Ban the sale and distribution of assault weapons. Assault weapons are designed and sold as tools of war. There is absolutely no reason why these firearms should be sold to civilians. Prohibit high-capacity ammunition magazines. Crack down on 'straw purchases' where people buy guns for criminals.
+	    			</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Right content -->
+	  		<div class="column">
+	  			<div class="w3-card-4 w3-light-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h1>Democrat</h1>
+					</div>
+				</div>
+	  			<div class="w3-card-4 w3-grey w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<p class="w3-xlarge w3-serif"><i>
+	    			"Three months ago, I called for an impeachment inquiry by the Judiciary Committee of the U.S. House of Representatives into the actions and behavior of President Trump. I believed then and I believe now that in Donald Trump we have the most corrupt president in the modern history of this country."
+	    			</i></p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>healthcare</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			guaranteeing health care to all people as a right, not a privilege, through a Medicare-for-all, single-payer program. Today, more than 30 million Americans still don’t have health insurance and even more are underinsured. Even for those with insurance, costs are so high that medical bills are the number one cause of bankruptcy in the United States. Incredibly, we spend significantly more of our national GDP on this inadequate health care system—far more per person than any other major country. And despite doing so, Americans have worse health outcomes and a higher infant mortality rate than countries that spend much less on health care. Our people deserve better. We should be spending money on doctors, nurses, mental health specialists, dentists, and other professionals who provide services to people and improve their lives. We must invest in the development of new drugs and technologies that cure disease and alleviate pain—not wasting hundreds of billions of dollars a year on profiteering, huge executive compensation packages, and outrageous administrative costs. The giant pharmaceutical and health insurance lobbies have spent billions of dollars over the past decades to ensure that their profits come before the health of the American people. We must defeat them, together.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Trade</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			We need a new trade policy that creates decent-paying jobs in America and ends the race to the bottom. Corporate America cannot continue to throw American workers out on the street while they outsource our jobs and enjoy record-breaking profits. Despite the president’s tough rhetoric and haphazard tariffs, under Trump, we now have a record-breaking $890 billion annual trade deficit in goods. And since Trump was elected, multinational corporations have shipped 185,000 American jobs overseas. That is unacceptable. As part of a new trade policy, we must: Eliminate the incentives baked into our current trade and tax agreements that make it easier for multinational corporations to ship jobs overseas. Corporations should not be able to get a tax deduction for the expenses involved in moving their factories abroad and throwing American workers out on the street. Instead of providing federal tax breaks, contracts, grants, and loans to corporations that outsource jobs, we need to support the small businesses that are creating good jobs in America. We must also expand “Buy American,” “Buy Local,” and other government policies that will increase jobs in the U.S. We need to make sure that strong and binding labor, environmental, and human rights standards are written into the core text of all trade agreements. We must also add to the core text of every U.S. trade agreement, enforceable rules against currency cheating, which allows countries to unfairly dump their products in this country and makes our exports more expensive abroad. Our trade policies must support communities of color that have been impacted the worst by our unfair trade deals. Undo the harm that trade agreements have done to family farmers. We must eliminate rules in our trade deals that increase the cost of medicines.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Education</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			supports increasing funding for public education and opposes for-profit charter schools. We must make sure that charter schools are accountable, transparent and truly serve the needs of disadvantaged children, not Wall Street, billionaire investors, and other private interests. We must ensure that a handful of billionaires don’t determine education policy for our nation’s children. We will oppose the DeVos-style privatization of our nation’s schools and will not allow public resources to be drained from public schools. We must guarantee childcare and universal pre-Kindergarten for every child in America to help level the playing field, create new and good jobs, and enable parents more easily balance the demands of work and home. We must increase pay for public school teachers so that their salary is commensurate with their importance to society. And we must invest in high-quality, ongoing professional development, and cancel teachers’ student debt. We must protect the tenure system for public school teachers and combat attacks on collective bargaining by corporate profiteers. We must put an end to high-stakes testing and 'teaching to the test' so that our students have a more fulfilling educational life and our teachers are afforded professional respect. We must guarantee children with disabilities an equal right to high-quality education, and increase funding for programs that combat racial segregation and unfair disciplinary practices that disproportionately affect students of color.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Criminal Justice</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			We are going to end the international embarrassment of having more people in jail than any other country on earth. Instead of spending $80 billion a year on jails and incarceration, we are going to invest in jobs and education for our young people. No more private prisons and detention centers. No more profiteering from locking people up. No more 'war on drugs.' No more keeping people in jail because they’re too poor to afford cash bail. End Profiteering in Our Criminal Justice System. End Cash Bail. Transform the Way We Police Communities. Ensure Law Enforcement Accountability and Robust Oversight. Provide More Support to Police Officers and Create A Robust Non-Law Enforcement Alternative Response System. Ensuring All Americans Due Process. Right to counsel. Ensure Accountability and Fairness in Prosecution. Ending Mass Incarceration and Excessive Sentencing. End the War on Drugs and Stop Criminalizing Addiction. Treat Children Like Children. Reform Our Decrepit Prison System to Make Jails and Prisons More Humane. Ensure a Just Transition Post-Release. Stop The Cycle of Violence by Prioritizing the Most Serious Offenses. Provide Adequate Support to Crime Survivors. Reverse the Criminalization of Disability. Investing in Community Living. Investing in Our Communities.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Foreign Policy</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			The U.S. must lead the world in improving international cooperation in the fight against climate change, militarism, authoritarianism, and global inequality. Implement a foreign policy which focuses on democracy, human rights, diplomacy and peace, and economic fairness. Allow Congress to reassert its Constitutional role in warmaking, so that no president can wage unauthorized and unconstitutional interventions overseas. Follow the American people, who do not want endless war. American troops have been in Afghanistan for nearly 18 years, the longest war in American history. Our troops have been in Iraq since 2003, and in Syria since 2015, and many other places. It is long past time for Congress to reassert its Constitutional authority over the use of force to responsibly end these interventions and bring our troops home. End U.S. support for the Saudi-led intervention in Yemen, which has created the world’s worst humanitarian catastrophe. Rejoin the Iran nuclear agreement and talk to Iran on a range of other issues. Work with pro-democracy forces around the world to build societies that work for and protect all people. In the United States, Europe, and elsewhere, democracy is under threat by forces of intolerance, corruption, and authoritarianism.
+	    			</p>
+					</div>
+				</div>
+
+	  		</div>
+		</div>
+
+	</body>
+</html>

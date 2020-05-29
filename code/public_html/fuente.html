@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Voting App</title>
+	<link rel="shortcut icon" href="images/bipartisan.jpg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/h1.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!-- Sidebar -->
+	<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-animate-left" id="mySidebar" style="width: 250px;">
+		<span class="w3-bar-item w3-blue w3-large"><a href="#" style="text-decoration: none;" id="sidebar_close" >Close &times;</a></span>
+		<a href="results.html" class="w3-bar-item w3-button w3-border-bottom w3-grey">Results</a>
+		<a href="questions.html" class="w3-bar-item w3-button w3-grey">Questions</a>
+		<a href="#" class="w3-btn w3-block w3-left-align w3-black" id="candidates">Candidates <i class="rotate fa fa-caret-down"></i></a>
+		<div id="candidates1" class="w3-white w3-card">
+			<a href="allcandi.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Show All</a>
+			<a href="biden.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Biden <img src="images/biden.png"></a>
+			<a href="fuente.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Fuente <img src="images/fuente.jpg"></a>
+			<a href="gabbard.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Gabbard <img src="images/gabbard.png"></a>
+			<a href="sanders.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Sanders <img src="images/sanders.jpg"></a>
+			<a href="trump.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Trump <img src="images/trump.png"></a>
+			<a href="weld.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Weld <img src="images/weld.jpg"></a>
+		</div>
+	</div>
+
+	<!-- Sidebar button-->
+	<button class="w3-button w3-round w3-ripple w3-xlarge w3-hover w3-opacity" id="sidebar_open">☰</button>
+
+	<!-- Body -->
+	<div class="row">
+		<!-- Left content -->
+  		<div class="column">
+    		<div class="w3-card-4 w3-orange w3-round-xxlarge" id="infoCard">
+				<img src="images/fuente.jpg" alt="Something is wrong on our end" style="width: 100%">
+				<div class="w3-container w3-center">
+				<p class="w3-xlarge w3-sans-serif">Roque De La Fuente</p>
+				<p class="w3-large w3-serif w3-justify">
+				De La Fuente was born in San Diego, California, in 1954. He studied physics and mathematics at Instituto Patria and business administration and accounting at Anáhuac University and the University of San Diego. After his studies, De La Fuente entered the car dealers industry, beginning as a salesman and eventually acquiring 28 car franchises in California. He then transitioned to the financial industry and real estate development, opening 11 currency exchanges, three banks, and assisted living facilities in Los Angeles and Lemon Grove. De La Fuente also owns properties throughout California, Connecticut, Florida, Massachusetts, New York, Ohio, Texas, and Virginia.[5] He served as an at-large delegate for California at the Democratic National Convention in 1992. De La Fuente has five children.
+				</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Immigration</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			We need comprehensive immigration reform that recognizes undocumented workers to be assets rather than liabilities. It isn’t logical to suggest that we can deport 13 million immigrants any more than it’s logical to suggest that we cannot deport the small percentage who have committed felonies. We can secure our borders without abandoning the values upon which our nation was built. The first step is to admit that our current system of immigrations is broken. Then, we must create a more intelligent, effective and efficient way of welcoming immigrants to our borders and providing them with a clear path to citizenship. The vast majority of these people are simply trying to secure a better future for themselves and for their families. While they may be entering the United States in a way that conflicts with our existing laws, they aren’t entering our country to be disruptive, and they may not even understand what our laws require. I think we need to start from a different place. Rather than viewing immigrants as potential liabilities, we need to begin to view them as assets. If we did that, the necessary changes to our archaic immigration laws could begin to be intelligently discussed, and we could make progress toward the comprehensive immigration reform that almost everyone agrees needs to happen. Today, we vilify immigrants on a generic basis. We also selectively enforce the laws that are on the books, which allows us to ignore how incomprehensively out-of-date those laws are. Our approach is almost anti-American when you compare it to the values that have always defined our country. We need to de-po-liticize the issue and work toward effective and comprehensive immigration reform.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Energy and Environmental</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			We need to orchestrate an intelligent approach to address our energy and environmental issues. They need to be considered together rather than discussed as if they were independent of one another. We are stewards of our planet, and we bear the responsibility to preserve the environment to the degree that we reasonably can. We cannot ignore science but we musts recognize that it is a two-edged sword. While we cannot deny mankind’s contribution to climate change, we also have to acknowledge that our attempts to mitigate the damage we do is driven by., We should extricate ourselves from the failed exercise of nation-building – trying to impose democracy on countries that may not choose to embrace it or may not be ready to build upon it from a cultural perspective. L would like to see us be less active in that regard as it often leads to us being Viewed negatively among other countries. We also have a duty to protect our citizens. If we are attacked or there is a clear and present danger of such an attack, then we have every right to defend our-selves.
+    			</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Right content -->
+  		<div class="column">
+  			<div class="w3-card-4 w3-orange w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h1>Republicans</h1>
+				</div>
+			</div>
+
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>healthcare</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			We must focus on the three original goals of health care reform – lower cost, maintained or improved quality, and open access. The ACA ultimately only focused upon the access issue because of the political capital it carries with it. However, if you don’t address cost and quality, you will have provided access to a systemically poor approach. We must readdress health care reform in a way that addresses cost and quality along with access. For example, substantive tort reform needs to be included in the discussion because of the way it distorts costs. Pharmaceutical advertising should also be on the table since it disproportionately adds cost without improving quality. Catastrophic insurance coverage would probably be the best starting, point to begin the reassessment. Then we could upon that to ensure operational efficiency while minimizing the potential for abuse. There isn’t any reason cannot deliver quality healthcare to every American.
+    			</p>
+				</div>
+			</div>
+
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Education</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			Given some at the radical excesses in which our government currently indulges, we should be able to intelligently find a way to fund college and trade school education to allow everyone to have access to those resources. I would favor constructing a free education system, but we would need to identify the funding mechanisms before launching such a program. The reality is that different people express their creativity in different ways and tan contribute to society in different mariners. Having treated thousands of jobs across the United States over the years, I can assure you that not everyone needs a college education nor do some people with a college education have the prerequisite skills to effectively provide some of the vital labor talent that our Nation also needs. It has become fashionable to leave skilled labor out of the discussion. I have too much respect for its contribution to ignore it.
+    			</p>
+				</div>
+			</div>
+
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Foreign Policy</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			 Simply do not think we should champion the political rhetoric that most politicians choose to pursue that suggests that we should use forte to intervene in the events of other nations if their cultures differ from ours and we see an opportunity to impose our will. Our government‘s authority to “provide for the common defense” is fundamental. Lf the threat to the United States is immediate or impending (as in the case of “confirmed” terrorists), we have the authority to address it. It the threat is hypothetical, then we must exercise well-measured restraint. Just as our country had to suffer through a civil war to address the pain associated. With fundamental change, we must allow other countries to find their political equilibrium without always assuming it must reflect ours.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Economy</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			The government cannot create jobs, but it can influence the economic environment. We need to rebalance the relationship between regulation, taxation, and economic expansion so that the private sector can create new jobs and attract old ones that have migrated overseas. This will expand the tax base as well as the economy and allow us to begin working down the debt that will otherwise suffocate our country in years to come. It will also provide individuals with the opportunity to pursue upward to mobility, which has been “missing in action” for far too many years. I would like to create an environment that actually support the concept of equal opportunity as opposed to just playing lip service to it. I would also like to see us find a way to finance education for those who need such assistance. We have created economic barriers in our upper educational system that make it cost prohibitive for some individuals to pursue their dreams. This discourages those individuals and also prevents our country from enjoying the full range of talent these individuals have to offer. We should also eliminate the incredible amount of waste and inefficiency in our recent military budgets. There is a disgraceful relationship between our politicians and the military-industrial lobby.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Gun Regulation</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			To be dear, barring a constitutional Amendment, I support the right to bear arms under the Second Amendment However, reasonable regulations that 'provide for… the general Welfare of the United States' are also part of our constitutional mandate. I support reasonable gun control legislation that pro-vides a greater level at safety for the general public without violating the fundamental right to bear arms (i.e., legislation that is limited to enhanced registration, training, logical weapons limitation by properly deﬁned type, etc.).
+    			</p>
+				</div>
+			</div>
+  		</div>
+	</div>
+
+</body>
+</html>

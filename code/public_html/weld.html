@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Voting App</title>
+<link rel="shortcut icon" href="images/bipartisan.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/sidebar.js"></script>
+<link rel="stylesheet" type="text/css" href="css/h1.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/body.css">
+<link rel="stylesheet" href="css/sidebar.css">
+<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!-- Sidebar -->
+	<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-animate-left" id="mySidebar" style="width: 250px;">
+		<span class="w3-bar-item w3-blue w3-large"><a href="#" style="text-decoration: none;" id="sidebar_close" >Close &times;</a></span>
+		<a href="results.html" class="w3-bar-item w3-button w3-border-bottom w3-grey">Results</a>
+		<a href="questions.html" class="w3-bar-item w3-button w3-grey">Questions</a>
+		<a href="#" class="w3-btn w3-block w3-left-align w3-black" id="candidates">Candidates <i class="rotate fa fa-caret-down"></i></a>
+		<div id="candidates1" class="w3-white w3-card">
+			<a href="allcandi.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Show All</a>
+			<a href="biden.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Biden <img src="images/biden.png"></a>
+			<a href="fuente.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Fuente <img src="images/fuente.jpg"></a>
+			<a href="gabbard.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Gabbard <img src="images/gabbard.png"></a>
+			<a href="sanders.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Sanders <img src="images/sanders.jpg"></a>
+			<a href="trump.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Trump <img src="images/trump.png"></a>
+			<a href="weld.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Weld <img src="images/weld.jpg"></a>
+		</div>
+	</div>
+
+	<!-- Sidebar button-->
+	<button class="w3-button w3-round w3-ripple w3-xlarge w3-hover w3-opacity" id="sidebar_open">☰</button>
+
+	<!-- Body -->
+	<div class="row">
+		<!-- Left content -->
+  		<div class="column">
+    		<div class="w3-card-4 w3-orange w3-round-xxlarge" id="infoCard">
+				<img src="images/weld.jpg" alt="Something is wrong on our end" style="width: 100%">
+				<div class="w3-container w3-center">
+				<p class="w3-xlarge w3-sans-serif">Bill Weld</p>
+				<p class="w3-large w3-serif w3-justify">
+				Weld was born in 1945 and grew up in Long Island. He received a bachelor's degree in classics from Harvard College, graduating summa cum laude. He then received a diploma in international economics from Oxford University before returning to Harvard to attend law school, where he received a J.D. Weld clerked for a year at the Massachusetts Supreme Judicial Court before entering private practice at the law firm Hill & Barlow in Boston. In 1981, he was appointed U.S. attorney for Massachusetts under Republican President Ronald Reagan. He served until 1986, when he assumed the position of assistant U.S. attorney general at the Department of Justice's criminal division. He left the Department of Justice in 1987. Weld was elected governor of Massachusetts in 1990, becoming the first Republican to win a gubernatorial election in the state in 20 years. Weld beat Democratic candidate John Silber by 4 points. In 1994, he was re-elected with 71 percent of the vote.Weld ran unsuccessfully for the U.S. Senate in 1996. He resigned as governor in 1997 to pursue a nomination by President Bill Clinton (D) as the U.S. ambassador to Mexico, a position to which he was not confirmed. He then re-entered private practice in New York. Weld ran unsuccessfully for governor of New York in 2006. He withdrew from the Republican primary after the party endorsed John Faso (R) and ran instead as a Libertarian, receiving 2 percent of the vote in the general election. Weld ran for vice president of the United States in 2016 on the Libertarian ticket with Gary Johnson as the presidential candidate.
+				</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Immigration</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			When it comes to immigration, we should adopt a robust guest worker program, to assist our agricultural and construction industries, particularly in the western states. We don’t need a path to citizenship for eleven million people, but we do need more and longer work visas. Under the current regime, we’re simply educating our competition in our graduate schools, and then sending them home to China and other economic competitors of the U.S. We may not need a long impenetrable wall, but we do need short-term bridges.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Energy and Environmental</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			energy and environmental issues" : "Whether as protection of a fragile ecosystem or as stewardship of God’s creation, there is a pressing need to act on climate change. The United States must rejoin the Paris climate accords, and adopt targets consonant with those of other industrialized nations. We must protect our economy, yes, but we must also recognize that increased natural disasters and unfamiliar weather patterns threaten to strip the snow from our White Mountains, and to melt all the mountain glaciers worldwide upon which hundreds of millions of people depend for their only source of water. Europe has its cathedrals and monuments; we have our mountains, canyons, valleys, rivers and streams – and we had damn well better take care of them. Our borders are safe in New Hampshire, but it is not a stretch to say that if climate change is not addressed, our coastlines and those of all other countries will over time be obliterated by storm surge and the melting of the polar ice cap. Yet climate skeptics claim that they are conservative!
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Gun Regulation</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			not to have a supercharged background check on everybody everytime they buy a gun because I do not think that is where you reach the shooters. I think the red flag laws ... would be a giant step toward preventing the mass shootings that we are talking about.
+    			</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Right content -->
+  		<div class="column">
+  			<div class="w3-card-4 w3-orange w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h1>Republicans</h1>
+				</div>
+			</div>
+  			<div class="w3-card-4 w3-grey w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<p class="w3-xlarge w3-serif"><i>
+    		    "The Mueller report section on obstruction of justice made it clear that Mr. Trump has ordered people to falsify documents in order to obstruct an investigation. And this is not nobody. This is the director of national intelligence and senior national security officials and his own lawyer."
+    			</i></p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>healthcare</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			As to health care, instead of arguing endlessly and fruitlessly about whether the Affordable Care Act should be repealed – because let’s face it, we do not have a consensus in Congress – there are various commonsense health care issues that could be addressed immediately, across party lines. Consumers should be permitted to establish personal health care savings accounts, and to choose their health care provider. They should be free to purchase pharmaceutical drugs across state lines and also in other countries. Their choice, not the government’s.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Trade</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			On the international front, the United States should return to a regime of free trade rather than having constant recourse to tariffs. Mr. Smoot and Mr. Hawley tried tariffs in June, 1930, and fanned the flames of the Great Depression.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Education</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			A system for delivering new skill sets is not the only area of education that cries out for action in the future. Parents need more options regarding the education of their children. We need to support school choice. We need to support home schooling. We need to support charter schools. And we need to consider abolishing the U. S. Department of Education, transferring decision-making authority to the States and the parents of school-age and college-age children.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Criminal Justice</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			Addiction of all types should be treated as the national public health emergency that it is, rather than as a crime of status and a top priority for the US criminal justice system. We should also move on to bail reform, funding for reentry programs, and other criminal justice reforms not reached by the recent First Step legislation.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Foreign Policy</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			In fairness to young adults in the military, they should not be asked to risk their lives in order to engineer regime changes in foreign countries at the whim of the US government, in the absence of any substantial threat to the United States. I would include issues like free trade and a robust engagement in foreign policy and robust use of soft power and diplomacy. Mr. Trump doesn’t do any of that because he thinks he’s the only person that knows anything. He has no use for soft power or diplomacy or, indeed, planning ahead. He likes to have a summit on no notice and with no preparation. There’s a reason why over the years, people thought that successful diplomacy required careful preparation and debriefing of the people who are going to conduct the negotiation.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Economy</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			In the federal budget, the two most important tasks are to cut spending and to cut taxes – and spending comes first. We need to “zero base” the federal budget, basing each appropriation on outcomes actually achieved, not on last year’s appropriation plus 5 per cent, which is what too many folks in Washington use as a starting point. Right after cutting spending comes cutting taxes. Federal taxes need serious adjustment downward. I favor repealing the federal death tax, for example, and cutting the capital gains tax rate to 10%. These taxes are not major revenue raisers, and they both have the perverse effect of penalizing people for a lifetime of hard work. Eliminating them will increase our aggregate national wealth, which should always be a key priority of the United States government. Domestically, our most immediate priority must be jobs and wages. What are we going to do about the fact that 25% of all the jobs in the United States today won’t exist in 15 years? This is not caused by the unseen hands of globalization or the internet, but rather by the soon to be all-too-visible hands of robotics, drones, machine learning, artificial intelligence, and autonomous vehicles. The old jobs will be replaced by new and different jobs, but the problem is that today’s workers don’t yet possess the skill sets that the replacement jobs will require. This truly is a national emergency, and it’s going to require a nationwide response.
+    			</p>
+				</div>
+			</div>
+  		</div>
+	</div>
+
+</body>
+</html>

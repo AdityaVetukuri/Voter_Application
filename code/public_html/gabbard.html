@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Voting App</title>
+		<link rel="shortcut icon" href="images/bipartisan.jpg">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/sidebar.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/h1.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/body.css">
+		<link rel="stylesheet" href="css/sidebar.css">
+		<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<!-- Sidebar -->
+		<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-animate-left" id="mySidebar" style="width: 250px;">
+			<span class="w3-bar-item w3-blue w3-large"><a href="#" style="text-decoration: none;" id="sidebar_close" >Close &times;</a></span>
+			<a href="results.html" class="w3-bar-item w3-button w3-border-bottom w3-grey">Results</a>
+			<a href="questions.html" class="w3-bar-item w3-button w3-grey">Questions</a>
+			<a href="#" class="w3-btn w3-block w3-left-align w3-black" id="candidates">Candidates <i class="rotate fa fa-caret-down"></i></a>
+			<div id="candidates1" class="w3-white w3-card">
+				<a href="allcandi.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Show All</a>
+				<a href="biden.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Biden <img src="images/biden.png"></a>
+				<a href="fuente.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Fuente <img src="images/fuente.jpg"></a>
+				<a href="gabbard.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Gabbard <img src="images/gabbard.png"></a>
+				<a href="sanders.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Sanders <img src="images/sanders.jpg"></a>
+				<a href="trump.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Trump <img src="images/trump.png"></a>
+				<a href="weld.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Weld <img src="images/weld.jpg"></a>
+			</div>
+		</div>
+
+		<!-- Sidebar button-->
+		<button class="w3-button w3-round w3-ripple w3-xlarge w3-hover w3-opacity" id="sidebar_open">☰</button>
+
+		<!-- Body -->
+		<div class="row">
+			<!-- Left content -->
+	  		<div class="column">
+	    		<div class="w3-card-4 w3-light-blue w3-round-xxlarge" id="infoCard">
+					<img src="images/gabbard.png" alt="Something is wrong on our end" style="width: 100%">
+					<div class="w3-container w3-center">
+					<p class="w3-xlarge w3-sans-serif">Tulsi Gabbard</p>
+					<p class="w3-large w3-serif w3-justify">
+					Gabbard was born in 1981 and grew up in Hawaii. In 2002, when she won election to the state House of Representatives at the age of 21, she was the youngest person elected to public office in the state's history. She served in the House until 2004. Since 2003, Gabbard has been a member of the Hawaii Army National Guard. She has been deployed on two tours of duty in the Middle East. Starting in 2005, she served as a field medical unit specialist in Iraq. During her second tour, she led security missions and helped train the Kuwait National Guard. Between the two tours, Gabbard graduated from the Accelerated Officer Candidate School at the Alabama Military Academy and received a B.S. in business administration from Hawaii Pacific University. She also worked as a legislative aide to Sen. Daniel Akaka (D-Hawaii). Gabbard was elected to the Honolulu City Council in 2010. She served on the council until 2012, when she ran for and won a seat in the U.S. House. Gabbard was the first Hindu elected to Congress. In 2013, Gabbard was elected vice chair of the Democratic National Committee.[8] She resigned in February 2016 to endorse Sen. Bernie Sanders in the Democratic presidential primary.
+					</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Immigration</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			We need comprehensive immigration reform to address our broken immigration laws and we need to have a serious conversation about the most effective and humane ways to compassionately secure our borders while building bridges and cooperative foreign policy with other countries. We need to ensure we have a clear, enforceable, accessible, and humane pathway to citizenship. Most urgently, we must pass DACA to ensure children who know no other home are allowed to remain in the US and take steps to ensure children are not separated from their parents. We must fund and equip agencies in charge of processing asylum claim and protect migrants, many of whom are women and children, who are going through our asylum process and fleeing natural disasters, religious persecution, or violence under an asylum status.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Energy and Environmental</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			energy and environmental issues" : "As president, I’ll tackle climate change by ending subsidies to big fossil fuel and agribusiness corporations, ban offshore drilling, harness innovation to create jobs in renewable energy, provide better opportunities for our farmers, and ensure every American has clean air and water. We need to invest in 100% renewable and safe energy sources like wind, solar, and geothermal. I also support a ban on fracking, ending the $26 billion/year in fossil fuel subsidies, as well as all subsidies or waivers to the nuclear power industry, which should itself be completely responsible for paying for its own insurance and paying the long term cost for safe storage of nuclear waste over centuries. I will also work to provide other incentives for a renewable energy economy.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Economy</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			From the Great Depression through the turn of the 21st Century, Glass-Steagall helped keep our economy safe. Repealing it allowed too-big-to-fail banks to gamble with the savings and livelihoods of the American people, with devastating, irrevocable consequences. Hawai?i, along with communities across the country, paid the price in 2008 with the worst financial crisis since the Great Depression. Today, the banks that were 'too big to fail' in 2008 are even bigger and more powerful now. We must reinstate Glass-Steagall and create a financial system that works for every American—not just Wall Street bank.
+	    			</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Right content -->
+	  		<div class="column">
+	  			<div class="w3-card-4 w3-light-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h1>Democrat</h1>
+					</div>
+				</div>
+	  			<div class="w3-card-4 w3-grey w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<p class="w3-xlarge w3-serif"><i>
+	    			"Up to this point, I have been opposed to pursuing impeachment because it will further divide our already badly divided country. However, after looking carefully at the transcript of the conversation with Ukraine’s President, the whistleblower complaint, the Inspector General memo, and President Trump’s comments about the issue, unfortunately, I believe that if we do not proceed with the inquiry, it will set a very dangerous precedent."
+	    			</i></p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>healthcare</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			We need real healthcare reform that brings down costs, increases access to quality care, and ensures basic health services are available to all Americans. As a cosponsor of H.R.676, the Expanded & Improved Medicare for All Act, Tulsi Gabbard is working towards a system that will provide universal healthcare to all Americans—a standard met by nearly every other major industrialized country in the world. We need a system that puts people first, ahead of the profits of insurance and pharmaceutical companies. The Medicare for All Act is an important step forward.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Trade</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			Trump’s trade wars are a disaster. Billions in bailouts to farmers. Unstable markets for small businesses. We need trade policies that put the people first.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Education</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			We need to make sure we are investing in the future of all of our children. In order to invest in our future, we have to provide adequate resources and meaningful accountability to ensure that all our students have equal access to quality education. The cost of tuition keeps too many people from pursuing a college education. We need to resolve student debt and guarantee college for all. From Trump University to Betsy DeVos, members of this administration have put a higher premium on personal enrichment than they have on improving our education.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Criminal Justice</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			Criminal justice reform is a bipartisan issue. We can bring down costs and improve outcomes by implementing alternatives to incarceration. Our outdated policies on marijuana are turning everyday Americans into criminals, tearing apart families, and wasting huge amounts of taxpayer dollars to arrest, prosecute, and incarcerate people for non-violent marijuana charges. We must stand up against for-profit, private prisons and a criminal justice system that favors the rich and powerful and punishes the poor, locking up people who smoke marijuana and ignoring corps like Purdue Pharma responsible for thousands of opioid-related deaths. As president I’ll end the failed war on drugs, legalize marijuana, end cash bail, and ban private prisons and bring about real criminal justice reform.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Foreign Policy</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			As president, I will lead this country to bring about a bold change in our foreign policy that bends the arc of history away from war and towards peace. That stops wasting our resources, and our lives on regime change wars, and redirects our focus and energy towards peace and prosperity for all people. The time is now to give up the gunboat diplomacy of the past, and instead, work out our differences with communication, negotiations, and goodwill.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Gun Regulation</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			The time for action is now. We cannot allow partisan politics to get in the way of taking meaningful action in areas where both parties agree and that have the support of most Americans across this country. Here are a few examples: Both Democrats and Republicans support legislation I have co-sponsored to ban bump stocks. Both Democrats and Republicans support legislation to uphold Second Amendment rights and strengthen the National Instant Criminal Background Check System. Now is the time for us to come together and to take meaningful action towards responsible, common sense gun safety reform.
+	    			</p>
+					</div>
+				</div>
+	  		</div>
+		</div>
+
+	</body>
+</html>

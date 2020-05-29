@@ -1,0 +1,32 @@
+.w3-q0 {color:#000 !important; background-color:#fefbf5 !important}
+.w3-q1 {color:#000 !important; background-color:#fcf2dc !important}
+.w3-q2 {color:#000 !important; background-color:#f9e6ba !important}
+.w3-q3 {color:#000 !important; background-color:#f5d997 !important}
+.w3-q4 {color:#000 !important; background-color:#f2cd75 !important}
+.w3-q5 {color:#000 !important; background-color:#ecb535 !important}
+.w3-q6 {color:#000 !important; background-color:#e9ab18 !important}
+.w3-q7 {color:#fff !important; background-color:#ce9613 !important}
+.w3-q8 {color:#fff !important; background-color:#b08010 !important}
+.w3-q9 {color:#fff !important; background-color:#936b0e !important}
+
+#sidebar_open{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.rotate{
+  transform: rotate(-90deg);
+}
+
+#candidates1 img{
+  width: 15%;
+}
+
+span{
+  color: #66ff66;
+}
+
+#Register span{
+  color: #e9ab18;
+}

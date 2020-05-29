@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Voting App</title>
+	<link rel="shortcut icon" href="images/bipartisan.jpg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/h1.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!-- Sidebar -->
+	<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-animate-left" id="mySidebar" style="width: 250px;">
+		<span class="w3-bar-item w3-blue w3-large"><a href="#" style="text-decoration: none;" id="sidebar_close" >Close &times;</a></span>
+		<a href="results.html" class="w3-bar-item w3-button w3-border-bottom w3-grey">Results</a>
+		<a href="questions.html" class="w3-bar-item w3-button w3-grey">Questions</a>
+		<a href="#" class="w3-btn w3-block w3-left-align w3-black" id="candidates">Candidates <i class="rotate fa fa-caret-down"></i></a>
+		<div id="candidates1" class="w3-white w3-card">
+			<a href="allcandi.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Show All</a>
+			<a href="biden.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Biden <img src="images/biden.png"></a>
+			<a href="fuente.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Fuente <img src="images/fuente.jpg"></a>
+			<a href="gabbard.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Gabbard <img src="images/gabbard.png"></a>
+			<a href="sanders.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Sanders <img src="images/sanders.jpg"></a>
+			<a href="trump.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Trump <img src="images/trump.png"></a>
+			<a href="weld.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Weld <img src="images/weld.jpg"></a>
+		</div>
+	</div>
+
+	<!-- Sidebar button-->
+	<button class="w3-button w3-round w3-ripple w3-xlarge w3-hover w3-opacity" id="sidebar_open">☰</button>
+
+	<!-- Body -->
+	<div class="row">
+		<!-- Left content -->
+  		<div class="column">
+    		<div class="w3-card-4 w3-light-blue w3-round-xxlarge" id="infoCard">
+				<img src="images/biden.png" alt="Something is wrong on our end" style="width: 100%">
+				<div class="w3-container w3-center">
+				<p class="w3-xlarge w3-sans-serif">Joe Biden</p>
+				<p class="w3-large w3-serif w3-justify">
+				Biden was born in 1942 in Scranton, Pennsylvania. When he was 13 years old, his family moved to Mayfield, Delaware. He graduated from the University of Delaware with a degree in history and political science and received his law degree from the Syracuse University Law School. Biden practiced law and worked as a public defender before seeking public office. From 1970 to 1972, Biden served on the New Castle County Council. He was elected to represent Delaware in the U.S. Senate at the age of 29, receiving 58% of the vote to defeat incumbent Sen. James Caleb Boggs (R). Two weeks after the election, his wife and daughter were killed in a car accident, which his two sons survived. Biden served in the Senate from 1973 to 2009. During his Senate career, he chaired the Senate Judiciary Committee and the Committee on Foreign Relations for several years. Biden launched his first presidential bid in 1987 but withdrew from the race. He launched a second presidential campaign in 2007, dropping out of the race following the 2008 Iowa caucuses, where he placed fifth. Then-candidate Barack Obama announced Biden was his choice for running mate in August 2008, and the pair won the general election. Biden served as vice president from 2009 to 2017.
+				</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Immigration</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			humane immigration policy that upholds our values, strengthens our economy, and secures our border. It’s no secret that our immigration system is broken, and for years, we have lacked the political will to fix it. We can secure our border and enforce our laws without tossing aside our values, our principles, and our humanity. Putting people in cages and tearing children away from their parents isn’t the answer. We have got to address the root causes of migration that push people to leave behind their homes and everything they know to undertake a dangerous journey for the chance at a better life, work that Vice President Biden led in the Obama-Biden Administration. At the same time, we must never forget that immigration is the reason the United States has been able to constantly renew and reinvent itself–legal immigration is an incredible source of strength for our country.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Energy and Environmental</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			will lead the world to address the climate emergency and lead through the power of example, by ensuring the U.S. achieves a 100% clean energy economy and net-zero emissions no later than 2050. Ensure the U.S. achieves a 100% clean energy economy and reaches net-zero emissions no later than 2050. Build a stronger, more resilient nation. On day one, Biden will make smart infrastructure investments to rebuild the nation and to ensure that our buildings, water, transportation, and energy infrastructure can withstand the impacts of climate change. Rally the rest of the world to meet the threat of climate change. Stand up to the abuse of power by polluters who disproportionately harm communities of color and low-income communities. Fulfill our obligation to workers and communities who powered our industrial revolution and subsequent decades of economic growth.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Economy</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			The American middle class built this country. Yet today, CEOs and Wall Street are putting profits over workers, plain and simple. It’s wrong. There used to be a basic bargain in this country that when you work hard, you were able to share in the prosperity your work helped create. It’s time to restore the dignity of work and give workers back the power to earn what they’re worth. It’s well past time that we increase the federal minimum wage to $15. We should stop companies from classifying low wage workers as managers in order to avoid paying them the overtime they’ve earned. We have to stop Republican attempts to strip away workers’ rights to form unions and collectively bargain. We also have to stand up against wage suppression through non-compete clauses. And, we need to put an end to unnecessary occupational licensing requirements.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Gun Regulation</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			As president, Biden will pursue constitutional, common-sense gun safety policies. Biden will: Hold gun manufacturers accountable. Ban the manufacture and sale of assault weapons and high-capacity magazines. Buy back the assault weapons and high-capacity magazines already in our communities. Reduce stockpiling of weapons. Require background checks for all gun sales. Create an effective program to ensure individuals who become prohibited from possessing firearms relinquish their weapons. Give states incentives to set up gun licensing programs. Establish a new Task Force on Online Harassment and Abuse to focus on the connection between mass shootings, online harassment, extremism, and violence against women. Put America on the path to ensuring that 100% of firearms sold in America are smart guns. Prioritize prosecution of straw purchasers. Dedicate the brightest scientific minds to solving the gun violence public health epidemic. Prohibit the use of federal funds to arm or train educators to discharge firearms. Address the epidemic of suicides by firearms.
+    			</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Right content -->
+  		<div class="column">
+  			<div class="w3-card-4 w3-light-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h1>Democrat</h1>
+				</div>
+			</div>
+  			<div class="w3-card-4 w3-grey w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<p class="w3-xlarge w3-serif"><i>
+    			"To preserve our Constitution, our democracy, our basic integrity, [donald trump] should be impeached."
+    			</i></p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>healthcare</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			protecting and building on the Affordable Care Act instead of switching to a Medicare for All system. As president, Biden will stop this reversal of the progress made by Obamacare. And he won’t stop there. He’ll also build on the Affordable Care Act with a plan to insure more than an estimated 97% of Americans. Here’s how: Giving Americans a new choice, a public health insurance option like Medicare. Increasing the value of tax credits to lower premiums and extend coverage to more working Americans. Expanding coverage to low-income Americans. All Americans will have a new, more affordable option. Middle class families will get a premium tax credit to help them pay for coverage. Premium tax credits will be calculated to help more families afford better coverage with lower deductibles. Stop “surprise billing.” Tackle market concentration across our health care system. Lower costs and improve health outcomes by partnering with the health care workforce. Repealing the outrageous exception allowing drug corporations to avoid negotiating with Medicare over drug prices. Limiting launch prices for drugs that face no competition and are being abusively priced by manufacturers. Limiting price increases for all brand, biotech, and abusively priced generic drugs to inflation. Allowing consumers to buy prescription drugs from other countries. Terminating pharmaceutical corporations’ tax break for advertisement spending. Improving the supply of quality generics. Expanding access to contraception and protect the constitutional right to an abortion. Reducing our unacceptably high maternal mortality rate, which especially impacts people of color. Defending health care protections for all, regardless of gender, gender identity, or sexual orientation. Achieving mental health parity and expanding access to mental health care.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Trade</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			First and foremost, we must enforce existing trade laws and invest in the competitiveness of our workers and communities here at home, so that they compete on a level playing field. Then, we need to write the rules of the road for international trade through a modern, inclusive process—rules that protect our workers, safeguard the environment, uphold labor standards and middle-class wages, foster innovation, and take on big global challenges like corporate concentration, corruption, and climate change. If we don’t, other countries will write the rules for us. We can no longer separate trade policy from our climate objectives. Biden will not allow other nations, including China, to game the system by becoming destination economies for polluters, undermining our climate efforts and exploiting American workers and businesses.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Education</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			A plan that provides educators the support and respect they need and deserve, and invests in all children from birth, so that regardless of their zip code, parents’ income, race, or disability, they are prepared to succeed in tomorrow’s economy. Support our educators by giving them the pay and dignity they deserve. Invest in resources for our schools so students grow into physically and emotionally healthy adults, and educators can focus on teaching. Ensure that no child’s future is determined by their zip code, parents’ income, race, or disability. Provide every middle and high school student a path to a successful career. Start investing in our children at birth
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Criminal Justice</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			will strengthen America’s commitment to justice and reform our criminal justice system. We can and must reduce the number of people incarcerated in this country while also reducing crime. No one should be incarcerated for drug use alone. Instead, they should be diverted to drug courts and treatment. Reducing the number of incarcerated individuals will reduce federal spending on incarceration. These savings should be reinvested in the communities impacted by mass incarceration. Our criminal justice system cannot be just unless we root out the racial, gender, and income-based disparities in the system. Black mothers and fathers should feel confident that their children are safe walking the streets of America. And, when a police officer pins on that shield and walks out the door, the officer’s family should know they’ll come home at the end of the day. Additionally, women and children are uniquely impacted by the criminal justice system, and the system needs to address their unique needs. Our criminal justice system must be focused on redemption and rehabilitation. Making sure formerly incarcerated individuals have the opportunity to be productive members of our society is not only the right thing to do, it will also grow our economy. No one should be profiteering off of our criminal justice system.
+    			</p>
+				</div>
+			</div>
+			<div class="w3-card-4 w3-pale-blue w3-round-xxlarge" id="infoCard">
+				<div class="w3-container">
+				<h3>Foreign Policy</h3>
+				<p class="w3-large w3-serif w3-justify">
+    			must lead not just with the example of power, but the power of our example. Defend our Vital Interests: As president, Biden will never hesitate to protect the American people, including when necessary, by using force. We have the strongest military in the world—and as president, Biden will ensure it stays that way. End Forever Wars: Biden will end the forever wars in Afghanistan and the Middle East, which have cost us untold blood and treasure. Elevate Diplomacy: As president, Biden will elevate diplomacy as the premier tool of our global engagement. He will rebuild a modern, agile U.S. Department of State—investing in and re-empowering the finest diplomatic corps in the world and leveraging the full talent and richness of America’s diversity. Restore and Reimagine Partnerships: A Biden administration will do more than restore our historic partnerships; it will lead the effort to reimagine them for the future. Renew our Commitment to Arms Control for a New Era Rally the World to Address the Existential Climate Crisis: The Biden administration will rejoin the Paris Climate Accord on day one and lead a major diplomatic push to raise the ambitions of countries’ climate targets.
+    			</p>
+				</div>
+			</div>
+
+  		</div>
+	</div>
+
+</body>
+</html>

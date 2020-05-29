@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Voting App</title>
+		<link rel="shortcut icon" href="images/bipartisan.jpg">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/sidebar.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/h1.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/body.css">
+		<link rel="stylesheet" href="css/sidebar.css">
+		<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<!-- Sidebar -->
+		<div class="w3-sidebar w3-bar-block w3-card-4 w3-border-right w3-animate-left" id="mySidebar" style="width: 250px;">
+			<span class="w3-bar-item w3-blue w3-large"><a href="#" style="text-decoration: none;" id="sidebar_close" >Close &times;</a></span>
+			<a href="results.html" class="w3-bar-item w3-button w3-border-bottom w3-grey">Results</a>
+			<a href="questions.html" class="w3-bar-item w3-button w3-grey">Questions</a>
+			<a href="#" class="w3-btn w3-block w3-left-align w3-black" id="candidates">Candidates <i class="rotate fa fa-caret-down"></i></a>
+			<div id="candidates1" class="w3-white w3-card">
+				<a href="allcandi.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Show All</a>
+				<a href="biden.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Biden <img src="images/biden.png"></a>
+				<a href="fuente.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Fuente <img src="images/fuente.jpg"></a>
+				<a href="gabbard.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Gabbard <img src="images/gabbard.png"></a>
+				<a href="sanders.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Sanders <img src="images/sanders.jpg"></a>
+				<a href="trump.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Trump <img src="images/trump.png"></a>
+				<a href="weld.html" class="w3-bar-item w3-button w3-border-bottom w3-light-grey">Weld <img src="images/weld.jpg"></a>
+			</div>
+		</div>
+
+		<!-- Sidebar button-->
+			<button class="w3-button w3-round w3-ripple w3-xlarge w3-hover w3-opacity" id="sidebar_open">☰</button>
+
+		<!-- Body -->
+		<div class="row">
+			<!-- Left content -->
+	  		<div class="column">
+	    		<div class="w3-card-4 w3-orange w3-round-xxlarge" id="infoCard">
+					<img src="images/trump.png" alt="Something is wrong on our end" style="width: 100%">
+					<div class="w3-container w3-center">
+					<p class="w3-xlarge w3-sans-serif">Donald Trump</p>
+					<p class="w3-large w3-serif w3-justify">
+					Trump was born in Queens, New York, in 1946. He attended Fordham University before transferring to the Wharton School of Finance at the University of Pennsylvania, where he earned a B.S. in economics in 1968. After graduation, Trump joined his family's company, Elizabeth Trump & Son. He took control of the company in 1971 and later renamed it the Trump Organization. He was involved in a variety of real estate and other business ventures in the following years. From 2004 until 2015, Trump hosted and served as executive producer of The Apprentice on NBC. In 1999, Trump ran as a Reform Party presidential candidate; he withdrew from the race in February 2000. Between 1987 and 2012, he changed his official party affiliation five times, registering most recently as a Republican in April 2012. Trump declared his candidacy for the 2016 presidential election on June 16, 2015, and officially received the nomination of the Republican Party on July 19, 2016, at the Republican National Convention. On November 8, 2016, Trump was elected the 45th president of the United States. He received 304 electoral votes to Hillary Clinton's 227.
+					</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Immigration</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			enforced immigration laws to protect American communities and American jobs. protects American communities and restores law and order so Americans can feel safe in their communities. President Trump called on Congress to fully fund a wall along the Southern border, to close legal loopholes that enable illegal immigration, to end chain migration, and to eliminate the visa lottery program. From President Trump’s inauguration through the end of FY 2017, U.S. Immigration and Customs Enforcement (ICE) made 110,568 arrests of illegal aliens, a 40 percent increase compared to the same time period the prior year. The number of counties participating in the 287(g) program, which gives state and local law enforcement entities delegated authority by ICE to enforce immigration in their jurisdiction, has doubled.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Energy and Environmental</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			reversing years of policies that locked-up American energy and restricted our ability to sell to other countries. Following the principles established by the President’s Executive Order on Energy Independence, EPA has proposed the repeal of the 'Clean Power Plan.' EPA Administrator Pruitt launched a task force to provide recommendations on how to streamline and improve the Superfund program, which is responsible for cleaning up land contaminated by hazardous waste. EPA has re-launched launched the Smart Sectors Program to partner with the private sector to achieve better environmental outcomes. signed an Executive Order to expand offshore oil and gas drilling and open more leases to develop offshore drilling. President Trump directed the Environmental Protection Agency (EPA) to rescind the Obama Administration’s Clean Power Plan (CPP). The Administration estimates that repealing the Clean Power Plan could eliminate up to $33 billion in compliance costs in 2030. In May 2017, EPA Administrator Pruitt announced the creation of a Superfund task force to look at ways to streamline and improve the Superfund program.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Economy</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			put the American economy into high gear, which created jobs and increased wealth. passed historic tax cuts and relief for hard-working Americans. The U.S. Gross Domestic Product (GDP) grew at or above 3 percent for two quarters in a row for the first time in three years. During first year, nearly 3 million new jobs were created since January 2017 and the unemployment rate fell to 3.8 percent, the first time below 4% in 18 years. The Dow Jones Industrial Average hit record highs more than 80 times, including closing higher than 26,000 points for the first time in its history. Economic confidence rebounded to record highs because his pro-growth policies have and continue to put American workers and businesses first.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Gun Regulation</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			Prosecutors were directed by the Department of Justice to focus on taking illegal guns off our streets. Criminals charged with unlawful possession of a firearm has increased 23 percent.
+	    			</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Right content -->
+	  		<div class="column">
+	  			<div class="w3-card-4 w3-orange w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h1>Republicans</h1>
+					</div>
+				</div>
+	  			<div class="w3-card-4 w3-grey w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<p class="w3-xlarge w3-serif"><i>
+	    			"And the witch hunt continues, but they’re getting hit hard in this witch hunt, because when they look at the information, it’s a joke. Impeachment? For that? When you have a wonderful meeting, or you have a wonderful phone conversation?"
+	    			</i></p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>healthcare</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			providing Americans the healthcare they need and improving access to affordable, quality healthcare. The Department of Agriculture provided more than $1 billion in fiscal year 2017 to be used to improve access to health care services for 2.5 million people in rural communities. President Trump mobilized his entire Administration to address drug addiction and opioid abuse by directing the declaration of a Nationwide Public Health Emergency. President Trump signed an Executive order to reform the United States healthcare system to take the first steps to expand choices and alternatives to Obamacare plans and increase competition to bring down costs for consumers. Under President Trump, The FDA has approved the most number of generic drugs in history in order to increase competition in the marketplace and lower the cost of prescription drugs for all Americans.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Trade</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			advanced free, fair and reciprocal trade deals that protect American workers, ending decades of destructive trade policies. withdraw the United States from the Trans-Pacific Partnership, advancing his agenda to protect American workers. Since taking office, President Trump has sought to confront unfair trade practices that have harmed American commerce for far too long. The Trump Administration successfully litigated WTO disputes targeting unfair trade practices and protected our right to enact fair trade laws.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Education</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			supported expanding school choice across the country so parents have a voice in their children’s education. President Trump and his Administration have identified and begun to end harmful regulations while maintaining protections for students. The Department of Education has overseen the first year of the Every Student Succeeds Act (ESSA) to empower States with the flexibility they need to educate their students. President Trump and his Administration are taking steps to reform the student aid process. The Department of Education is working to ensure regulations on the books adequately protect students while giving States, institutions, teachers, parents and students the flexibility they need to improve outcomes.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Criminal Justice</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			Department of Justice are working with local law enforcement to protect American communities. protecting the rights of all Americans. Department of Justice have aggressively confronted organized crime from street gangs to criminal cartels. signed Executive Order 13809 to restore State and local law enforcement’s access to surplus equipment from the Defense Department, such as armored vehicles. Attorney General Sessions returned to longstanding Department of Justice charging policy for our Federal prosecutors, trusting them once again and directing them to return to charging the most serious, readily provable offense. Under President Trump, the Department of Justice has supported students whose free-speech rights have been under attack on university campuses. Attorney General Sessions designated MS-13 as a priority for the Organized Crime Drug Enforcement Task Force, to allow Federal law enforcement to utilize an expanded toolkit in its efforts to dismantle the organization.
+	    			</p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-pale-yellow  w3-round-xxlarge" id="infoCard">
+					<div class="w3-container">
+					<h3>Foreign Policy</h3>
+					<p class="w3-large w3-serif w3-justify">
+	    			put America first in trade so American workers aren’t put at a disadvantage. used an America First foreign policy to restore respect for the United States throughout the world and to advance our interests. made historic trips and delivered speeches abroad restoring America’s influence around the world. rebuilding our military, defeating terrorist organizations, and confronting rogue nations to protect America and our allies. additional measures to punish those who seek to undermine American democracy and security. traveled to the Middle East and Europe to solidify relations with our allies in both regions and to push for greater commitments and cooperation. putting maximum pressure on North Korea to denuclearize. President Trump is confronting Iran’s aggression.
+	    			</p>
+					</div>
+				</div>
+
+	  		</div>
+		</div>
+
+	</body>
+</html>
